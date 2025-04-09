@@ -1,11 +1,11 @@
 x= int(input("Введіть число: "))
 
-a1 = x // 1000
-a2 = (x % 1000) // 100
-a3 = (x % 100) // 10
-a4 = x % 10
-
-print(a1)
-print(a2)
-print(a3)
-print(a4)
+b1 = x // 1000
+b2 = (x % 1000) // 100
+b3 = (x % 100) // 10
+b4 = x % 10
+print("Ваше число: ")
+print(b1)
+print(b2)
+print(b3)
+print(b4)
